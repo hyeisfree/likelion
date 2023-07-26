@@ -1,0 +1,15 @@
+* {
+  background-color: #b3cad6;
+  color: beige;
+}
+h1 {
+  text-align: center;
+}
+details {
+  font-size: large;
+}
+summary {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
