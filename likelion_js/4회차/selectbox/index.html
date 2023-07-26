@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>선택창 만들기</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>실습: Select Box 만들기</h1>
+    <p>
+      JavaScript를 사용해 선택상자를 직접 만들어보세요. 구현해야 하는 사항은
+      다음과 같습니다.
+    </p>
+    <ol>
+      <li>
+        버튼을 클릭하지 않았을 때는 "hidden" 클래스로 선택 옵션 상자가 가려져
+        있습니다.
+      </li>
+      <li>
+        <strong
+          >버튼을 클릭하면 "hidden" 클래스가 사라져 선택 옵션 상자가
+          나타납니다.</strong
+        >
+      </li>
+      <li>
+        옵션 위에 커서를 올리면 pointer 커서가 되며, 해당 옵션의 배경색이
+        바뀝니다.
+      </li>
+      <li>
+        옵션을 선택하면, 선택한 동물 이름으로 span 태그의 innerText가
+        변경됩니다.
+      </li>
+    </ol>
+    <hr />
+    <br />
+    <button class="btn-selector">좋아하는 동물</button>
+    <span id="favanimal"></span>
+    <ul class="list-options">
+      <li>고양이</li>
+      <li>강아지</li>
+      <li>코끼리</li>
+      <li>토끼</li>
+      <li>멋쟁이사자</li>
+    </ul>
+  </body>
+</html>

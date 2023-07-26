@@ -1,0 +1,9 @@
+div {
+    background-color: palevioletred;
+    background-image:url();
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+
+    background : palevioletred url() repeat-x fixed center;
+}

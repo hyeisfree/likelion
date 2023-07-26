@@ -1,0 +1,34 @@
+/* 버튼의 공통되는 스타일 */
+.button {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100px;
+
+  border: none;
+  border-radius: 20px;
+  background-color: dodgerblue;
+  color: white;
+
+  /* 마우스를 올렸을 때 커서모양을 손가락으로 */
+  cursor: pointer;
+}
+
+/* 비활성화된 버튼 */
+/* .disabled 클래스가 붙은 .button을 지정 */
+.button.disabled {
+  background-color: #ccc;
+  /* 마우스를 올렸을 때 커서모양을 금지아이콘으로 */
+  cursor: not-allowed;
+}
+
+.button.hidden {
+  display: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -1,0 +1,72 @@
+.main_header {
+    background-color: #9acd32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+.main_header h4 {
+    font-size: 55px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    animation-name: fadein;
+    animation-duration: 0.5s;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.main_header span {
+    font-size: 20px;
+    animation-name: fi;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: none;
+}
+@keyframes fi {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+content {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+.left_aside {
+    order: 0;
+}
+.main_section {
+    order: 1;
+    display: grid;
+    grid-template-columns: 5fr;
+    grid-template-rows: 3fr;
+}
+.right_aside {
+    order: 2;
+}
+.main_section article{
+    border-bottom: 1px solid gray;
+}
+.left_aside_links {
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-columns: 1fr;
+}
+content section div span {
+    font-weight: bold;
+}
+article div h4 {
+    font-weight: bold;
+}
+.left_aside h4{
+    font-weight: bold;
+}

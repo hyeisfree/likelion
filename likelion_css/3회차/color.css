@@ -1,0 +1,6 @@
+div {
+    color : red;
+    color : #ff0000;
+    color : rgb(255,0,0);
+    color : hsl(0, 100%, 50%);
+}

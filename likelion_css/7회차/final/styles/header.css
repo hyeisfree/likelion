@@ -1,0 +1,50 @@
+header {
+    background-color: rgb(31, 41, 55);
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    width: 70px;
+    height: 55px;
+}
+nav {
+    display: flex;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+}
+.login_button{
+    width: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.background_effect {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    transition-duration: 0.5s;
+}
+.login_button:hover .background_effect {
+    width: 100%;
+    background-color: dodgerblue;
+}
+.login_button span {
+    z-index: 3;
+}
+nav span:nth-child(3) {
+    font-weight: bold;
+}
+header span {
+    color: white;
+}
+.login_button:hover{
+    border: none;
+}
+

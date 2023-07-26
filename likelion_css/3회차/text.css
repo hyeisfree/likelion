@@ -1,0 +1,9 @@
+p{
+    direction:rtl;/* 글자 출력이 시작되는 위치*/
+    letter-spacing: 10px;/* 글자간 간격 */
+    word-spacing: 10px;/* 단어 간의 간격 */
+    text-indent:100px;/* 단락의 첫줄에 들여쓰기를 얼마나 */
+    text-align: center; /* 텍스트의 수평 방향 정렬 */
+    text-decoration: none; /* 텍스트에 여러가지 효과를 설정 or 제거 */
+    line-height: 10px;/* 줄 간 간격 */
+}
